@@ -5,26 +5,29 @@ This project is a dual chatbot implementation built using **LangChain** and **St
 - 🔹 **ChatGPT via OpenAI API (Paid)**
 - 🔹 **Gemma 2B via Ollama (Free and offline)**
 
-**Add your keys to .env:**
+
+**🔑 Add your keys to .env:**
 
 LANGCHAIN_API_KEY=your_key<br>
 OPENAI_API_KEY=your_key<br>
 LANGCHAIN_PROJECT=your_project<br>
 
-▶️ Run
-**For OpenAI version**
-streamlit run chatgpt_chatbot.py
 
-**For Ollama version**
-ollama pull gemma:2b
-streamlit run gemma_chatbot.py
+**▶️ Run**
+**For OpenAI version**<br>
+streamlit run chatgpt_chatbot.py<br>
+
+**For Ollama version**<br>
+ollama pull gemma:2b<br>
+streamlit run gemma_chatbot.py<br>
+
 
 **📁 Files**
 
-chatgpt_chatbot.py – uses OpenAI
-gemma_chatbot.py – uses Ollama
-.env – store your keys
-requirements.txt
+chatgpt_chatbot.py – uses OpenAI<br
+gemma_chatbot.py – uses Ollama<br>
+.env – store your keys<br>
+requirements.txt<br>
 
 ## 📦 Tech Stack
 
@@ -35,5 +38,5 @@ requirements.txt
 - [Ollama](https://ollama.com/) – for running local LLMs
 - [python-dotenv](https://pypi.org/project/python-dotenv/) – for loading environment variables
 
----
+
 
