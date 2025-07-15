@@ -5,11 +5,11 @@ This project is a dual chatbot implementation built using **LangChain** and **St
 - 🔹 **ChatGPT via OpenAI API (Paid)**
 - 🔹 **Gemma 2B via Ollama (Free and offline)**
 
----Add your keys to .env:
+**Add your keys to .env:**
 
-LANGCHAIN_API_KEY=your_key
-OPENAI_API_KEY=your_key
-LANGCHAIN_PROJECT=your_project
+LANGCHAIN_API_KEY=your_key<br>
+OPENAI_API_KEY=your_key<br>
+LANGCHAIN_PROJECT=your_project<br>
 
 ▶️ Run
 **For OpenAI version**
